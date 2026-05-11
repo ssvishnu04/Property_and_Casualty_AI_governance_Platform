@@ -70,7 +70,7 @@ if "GROQ_API_KEY" in st.secrets:
 @st.cache_data(ttl=30)
 def fetch_data(endpoint: str):
     """
-    Fetches data either from FastAPI or directly from local services
+    Fetches data either from FastAPI or directly from local files/services
     for Streamlit Cloud demo mode.
     """
 
@@ -78,45 +78,45 @@ def fetch_data(endpoint: str):
 
         if endpoint == "/agents/":
 
-         agents_data = []
+            agents_data = []
 
-        if get_agents is not None:
-            try:
-                agents_data = get_agents()
-            except Exception:
-                agents_data = []
+            if get_agents is not None:
+                try:
+                    agents_data = get_agents()
+                except Exception:
+                    agents_data = []
 
-        if agents_data:
-            return agents_data
+            if agents_data:
+                return agents_data
 
-        return load_json_from_possible_paths(
-            [
-                "data/semi_structured/agents.json",
-                "data/agents.json",
-                "agents.json",
-            ]
-        )
+            return load_json_from_possible_paths(
+                [
+                    "data/semi_structured/agents.json",
+                    "data/agents.json",
+                    "agents.json",
+                ]
+            )
 
         if endpoint == "/tools/":
 
-         tools_data = []
+            tools_data = []
 
-        if get_tools is not None:
-            try:
-                tools_data = get_tools()
-            except Exception:
-                tools_data = []
+            if get_tools is not None:
+                try:
+                    tools_data = get_tools()
+                except Exception:
+                    tools_data = []
 
-        if tools_data:
-            return tools_data
+            if tools_data:
+                return tools_data
 
-        return load_json_from_possible_paths(
-            [
-                "data/semi_structured/tools.json",
-                "data/tools.json",
-                "tools.json",
-            ]
-        )
+            return load_json_from_possible_paths(
+                [
+                    "data/semi_structured/tools.json",
+                    "data/tools.json",
+                    "tools.json",
+                ]
+            )
 
         if endpoint.startswith("/events/recent"):
             events = load_events()
