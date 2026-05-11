@@ -1,6 +1,7 @@
-# Enterprise Agentic AI Governance Platform for Insurance & Reinsurance (P&C Domain)
+# Enterprise Agentic AI Governance Platform
+### Insurance & Reinsurance (P&C Domain)
 
-# Project Link 
+# Project Link [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
 https://ai-governance-platform-property-and-casualty.streamlit.app/
 ## Overview
 
