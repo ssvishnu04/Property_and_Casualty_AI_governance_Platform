@@ -1,0 +1,22 @@
+Claims Handling Manual
+
+All claims must undergo initial triage within 24 hours of FNOL intake.
+
+Adjusters should validate:
+- policy effective dates
+- coverage eligibility
+- loss cause
+- reserve adequacy
+- supporting documentation
+
+Large-loss claims exceeding $500,000 require escalation to senior claims management.
+
+Litigation indicators include:
+- attorney representation
+- disputed liability
+- suspected bad faith exposure
+- subrogation disputes
+
+Claims involving catastrophe events should follow CAT surge handling procedures.
+
+Reserve reviews are required every 30 days for open commercial claims.

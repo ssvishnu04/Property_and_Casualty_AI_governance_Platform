@@ -1,0 +1,209 @@
+[
+    {
+        "agent_id": "AGT-0001",
+        "agent_name": "Claims Summary Agent",
+        "business_unit": "Claims",
+        "owner_team": "Claims AI Team",
+        "risk_tier": "Medium",
+        "approved_tools": [
+            "claims_lookup",
+            "document_search"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Pilot",
+        "model_name": "llama-3.1-8b",
+        "data_sensitivity": "confidential",
+        "source_system": "ai_registry_platform",
+        "created_timestamp": "2025-11-12T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-11-28T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0002",
+        "agent_name": "FNOL Intake Agent",
+        "business_unit": "Claims",
+        "owner_team": "Claims AI Team",
+        "risk_tier": "Medium",
+        "approved_tools": [
+            "fnol_event_lookup",
+            "claims_lookup"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Active",
+        "model_name": "llama-3.1-8b",
+        "data_sensitivity": "internal",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-05-19T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-06-21T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0003",
+        "agent_name": "Policy Coverage Agent",
+        "business_unit": "Policy Services",
+        "owner_team": "Policy Services AI Team",
+        "risk_tier": "High",
+        "approved_tools": [
+            "policy_document_search",
+            "coverage_lookup"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Pilot",
+        "model_name": "gpt-4",
+        "data_sensitivity": "confidential",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-07-15T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-09-29T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0004",
+        "agent_name": "Underwriting Copilot",
+        "business_unit": "Underwriting",
+        "owner_team": "Underwriting AI Team",
+        "risk_tier": "High",
+        "approved_tools": [
+            "underwriting_guideline_search",
+            "submission_lookup"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Active",
+        "model_name": "gpt-4",
+        "data_sensitivity": "internal",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-06-26T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-07-10T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0005",
+        "agent_name": "CAT Event Intelligence Agent",
+        "business_unit": "CAT Analytics",
+        "owner_team": "CAT Analytics AI Team",
+        "risk_tier": "High",
+        "approved_tools": [
+            "cat_event_lookup",
+            "exposure_analysis_tool"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Active",
+        "model_name": "gpt-4",
+        "data_sensitivity": "confidential",
+        "source_system": "ai_registry_platform",
+        "created_timestamp": "2025-08-24T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-10-20T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0006",
+        "agent_name": "Reinsurance Treaty Agent",
+        "business_unit": "Reinsurance",
+        "owner_team": "Reinsurance AI Team",
+        "risk_tier": "High",
+        "approved_tools": [
+            "treaty_search",
+            "document_search"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Pilot",
+        "model_name": "llama-3.1-8b",
+        "data_sensitivity": "restricted",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-05-10T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-07-08T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0007",
+        "agent_name": "Governance Oversight Agent",
+        "business_unit": "AI Governance",
+        "owner_team": "AI Governance AI Team",
+        "risk_tier": "Critical",
+        "approved_tools": [
+            "audit_log_reader",
+            "risk_dashboard_lookup"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Active",
+        "model_name": "llama-3.1-8b",
+        "data_sensitivity": "confidential",
+        "source_system": "ai_registry_platform",
+        "created_timestamp": "2025-05-24T15:50:02.319191",
+        "last_reviewed_timestamp": "2025-07-18T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0008",
+        "agent_name": "Document Extraction Agent",
+        "business_unit": "Operations",
+        "owner_team": "Operations AI Team",
+        "risk_tier": "Medium",
+        "approved_tools": [
+            "document_parser",
+            "ocr_tool"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Pilot",
+        "model_name": "llama-3.1-8b",
+        "data_sensitivity": "restricted",
+        "source_system": "ai_registry_platform",
+        "created_timestamp": "2026-01-31T15:50:02.319191",
+        "last_reviewed_timestamp": "2026-04-26T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    },
+    {
+        "agent_id": "AGT-0009",
+        "agent_name": "Broker Submission Agent",
+        "business_unit": "Underwriting",
+        "owner_team": "Underwriting AI Team",
+        "risk_tier": "Medium",
+        "approved_tools": [
+            "submission_lookup",
+            "broker_document_search"
+        ],
+        "allowed_data_types": [
+            "structured",
+            "semi_structured",
+            "unstructured"
+        ],
+        "status": "Active",
+        "model_name": "llama-3.1-8b",
+        "data_sensitivity": "internal",
+        "source_system": "ai_registry_platform",
+        "created_timestamp": "2026-02-19T15:50:02.319191",
+        "last_reviewed_timestamp": "2026-04-16T15:50:02.319191",
+        "created_by": "ai_platform_admin"
+    }
+]

@@ -1,0 +1,11 @@
+CAT event assessment should consider event type, region, estimated loss amount, affected claim count, severity level, claims surge, reserve adequacy, catastrophe response procedures, and reinsurance recovery implications.
+
+Operational impact should include:
+- claims surge monitoring
+- reserve adequacy review
+- catastrophe response activation
+- staffing impact
+- exposure aggregation
+- reinsurance recovery implications
+
+High severity CAT events require escalation, reserve monitoring, and coordination with reinsurance teams.

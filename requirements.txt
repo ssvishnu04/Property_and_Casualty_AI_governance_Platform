@@ -1,0 +1,37 @@
+fastapi
+uvicorn
+streamlit
+requests
+pandas
+numpy
+pydantic
+python-dotenv
+sqlalchemy
+faker
+scikit-learn
+pytest
+ruff
+plotly
+
+# RAG + Embeddings
+sentence-transformers
+faiss-cpu
+transformers
+datasets
+
+# LangChain
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-core
+langchain-groq
+
+# RAG Evaluation
+#ragas==0.1.10
+
+# PDF / Document Parsing
+pypdf
+
+# Optional enterprise utilities
+tqdm

@@ -1,0 +1,11 @@
+Underwriting review should evaluate catastrophe exposure, total insured value, requested limits, deductible, pricing adequacy, and risk appetite.
+
+Submissions with high catastrophe exposure, high total insured value, or weak pricing adequacy require secondary underwriting review.
+
+Underwriting concerns should include:
+- catastrophe exposure
+- pricing adequacy
+- requested limits
+- deductible suitability
+- risk appetite alignment
+- need for secondary underwriting review

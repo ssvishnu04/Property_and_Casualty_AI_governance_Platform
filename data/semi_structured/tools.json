@@ -1,0 +1,202 @@
+[
+    {
+        "tool_id": "TL-0001",
+        "tool_name": "claims_lookup",
+        "tool_type": "database_query",
+        "allowed_departments": [
+            "Claims"
+        ],
+        "sensitivity_level": "confidential",
+        "approval_required": true,
+        "pii_access": true,
+        "status": "Active",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-07-19T15:50:02.382189",
+        "approval_timestamp": "2025-07-30T15:50:02.382189",
+        "approved_by": "governance_officer"
+    },
+    {
+        "tool_id": "TL-0002",
+        "tool_name": "policy_document_search",
+        "tool_type": "document_search",
+        "allowed_departments": [
+            "Policy Services",
+            "Underwriting"
+        ],
+        "sensitivity_level": "restricted",
+        "approval_required": false,
+        "pii_access": true,
+        "status": "Active",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-10-07T15:50:02.382189",
+        "approval_timestamp": "2025-10-18T15:50:02.382189",
+        "approved_by": "ai_platform_admin"
+    },
+    {
+        "tool_id": "TL-0003",
+        "tool_name": "coverage_lookup",
+        "tool_type": "coverage_engine",
+        "allowed_departments": [
+            "Claims",
+            "Policy Services"
+        ],
+        "sensitivity_level": "restricted",
+        "approval_required": true,
+        "pii_access": true,
+        "status": "Active",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-06-01T15:50:02.382189",
+        "approval_timestamp": "2025-06-22T15:50:02.382189",
+        "approved_by": "ai_platform_admin"
+    },
+    {
+        "tool_id": "TL-0004",
+        "tool_name": "submission_lookup",
+        "tool_type": "underwriting_query",
+        "allowed_departments": [
+            "Underwriting"
+        ],
+        "sensitivity_level": "confidential",
+        "approval_required": true,
+        "pii_access": false,
+        "status": "Disabled",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-11-12T15:50:02.382189",
+        "approval_timestamp": "2025-11-23T15:50:02.382189",
+        "approved_by": "ai_platform_admin"
+    },
+    {
+        "tool_id": "TL-0005",
+        "tool_name": "underwriting_guideline_search",
+        "tool_type": "document_search",
+        "allowed_departments": [
+            "Underwriting"
+        ],
+        "sensitivity_level": "internal",
+        "approval_required": true,
+        "pii_access": false,
+        "status": "Active",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-08-04T15:50:02.382189",
+        "approval_timestamp": "2025-09-02T15:50:02.382189",
+        "approved_by": "security_admin"
+    },
+    {
+        "tool_id": "TL-0006",
+        "tool_name": "cat_event_lookup",
+        "tool_type": "event_query",
+        "allowed_departments": [
+            "CAT Analytics",
+            "Reinsurance"
+        ],
+        "sensitivity_level": "internal",
+        "approval_required": true,
+        "pii_access": false,
+        "status": "Disabled",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-06-20T15:50:02.382189",
+        "approval_timestamp": "2025-07-03T15:50:02.382189",
+        "approved_by": "governance_officer"
+    },
+    {
+        "tool_id": "TL-0007",
+        "tool_name": "exposure_analysis_tool",
+        "tool_type": "analytics_engine",
+        "allowed_departments": [
+            "CAT Analytics",
+            "Reinsurance"
+        ],
+        "sensitivity_level": "restricted",
+        "approval_required": true,
+        "pii_access": false,
+        "status": "Disabled",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-12-08T15:50:02.382189",
+        "approval_timestamp": "2026-01-03T15:50:02.382189",
+        "approved_by": "ai_platform_admin"
+    },
+    {
+        "tool_id": "TL-0008",
+        "tool_name": "treaty_search",
+        "tool_type": "document_search",
+        "allowed_departments": [
+            "Reinsurance"
+        ],
+        "sensitivity_level": "restricted",
+        "approval_required": false,
+        "pii_access": false,
+        "status": "Active",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-07-20T15:50:02.382189",
+        "approval_timestamp": "2025-08-15T15:50:02.382189",
+        "approved_by": "security_admin"
+    },
+    {
+        "tool_id": "TL-0009",
+        "tool_name": "audit_log_reader",
+        "tool_type": "audit_query",
+        "allowed_departments": [
+            "Audit",
+            "Security",
+            "AI Governance"
+        ],
+        "sensitivity_level": "critical",
+        "approval_required": true,
+        "pii_access": true,
+        "status": "Active",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2026-04-04T15:50:02.382189",
+        "approval_timestamp": "2026-04-30T15:50:02.382189",
+        "approved_by": "governance_officer"
+    },
+    {
+        "tool_id": "TL-0010",
+        "tool_name": "risk_dashboard_lookup",
+        "tool_type": "dashboard_query",
+        "allowed_departments": [
+            "AI Governance",
+            "Security"
+        ],
+        "sensitivity_level": "confidential",
+        "approval_required": true,
+        "pii_access": false,
+        "status": "Disabled",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-08-05T15:50:02.382189",
+        "approval_timestamp": "2025-08-17T15:50:02.382189",
+        "approved_by": "security_admin"
+    },
+    {
+        "tool_id": "TL-0011",
+        "tool_name": "document_parser",
+        "tool_type": "document_processing",
+        "allowed_departments": [
+            "Operations",
+            "Claims"
+        ],
+        "sensitivity_level": "internal",
+        "approval_required": false,
+        "pii_access": true,
+        "status": "Disabled",
+        "source_system": "governance_admin_portal",
+        "created_timestamp": "2025-05-19T15:50:02.382189",
+        "approval_timestamp": "2025-05-30T15:50:02.382189",
+        "approved_by": "governance_officer"
+    },
+    {
+        "tool_id": "TL-0012",
+        "tool_name": "ocr_tool",
+        "tool_type": "ocr_engine",
+        "allowed_departments": [
+            "Operations"
+        ],
+        "sensitivity_level": "internal",
+        "approval_required": true,
+        "pii_access": true,
+        "status": "Disabled",
+        "source_system": "tool_registry_platform",
+        "created_timestamp": "2025-06-21T15:50:02.382189",
+        "approval_timestamp": "2025-07-20T15:50:02.382189",
+        "approved_by": "governance_officer"
+    }
+]

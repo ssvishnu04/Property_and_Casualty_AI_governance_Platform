@@ -1,0 +1,14 @@
+[
+    {
+        "chunk_id": "CHK-00001",
+        "source_document": "data/unstructured/commercial_property_policy_wording.txt",
+        "chunk_text": "COMMERCIAL PROPERTY POLICY WORDING\n\nCoverage applies to direct physical loss or damage to covered property\ncaused by a covered peril during the policy period.\n\nCovered property includes:\n- Buildings\n- Business personal property\n- Equipment\n- Inventory\n\nCovered perils may include:\n- Fire\n- Windstorm\n- Hail\n- Theft\n- Water damage\n\nExclusions:\n- War\n- Nuclear hazard\n- Intentional acts\n- Flood unless endorsed\n- Earthquake unless endorsed\n\nDeductibles and policy limits apply to all covered losses.\nCl",
+        "chunk_length": 500
+    },
+    {
+        "chunk_id": "CHK-00002",
+        "source_document": "data/unstructured/commercial_property_policy_wording.txt",
+        "chunk_text": "endorsed\n- Earthquake unless endorsed\n\nDeductibles and policy limits apply to all covered losses.\nClaims must be reported within a reasonable timeframe following discovery.",
+        "chunk_length": 172
+    }
+]

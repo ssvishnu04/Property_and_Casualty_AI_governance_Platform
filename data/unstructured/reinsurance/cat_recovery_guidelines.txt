@@ -1,0 +1,12 @@
+Reinsurance treaty review should evaluate treaty type, attachment point, limit amount, retention, reinsurer share, catastrophe aggregation, recoverable estimates, exhaustion scenarios, and reinstatement terms.
+
+CAT recovery exposure should consider:
+- treaty attachment point
+- available limit amount
+- retained loss
+- reinsurer share
+- potential recoverable estimate
+- exhaustion scenario
+- reinstatement terms
+
+Treaties with high CAT aggregation or low attachment points require close recoverable monitoring.

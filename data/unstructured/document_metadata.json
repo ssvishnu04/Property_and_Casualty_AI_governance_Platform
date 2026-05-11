@@ -1,0 +1,57 @@
+[
+    {
+        "document_id": "DOC-0001",
+        "document_name": "commercial_property_policy_wording.txt",
+        "document_type": "Policy Wording",
+        "business_unit": "Policy Services",
+        "data_sensitivity": "restricted",
+        "source_system": "policy_document_repository",
+        "created_timestamp": "2026-05-06T15:50:02.541323",
+        "last_reviewed_timestamp": "2026-05-06T15:50:02.541323",
+        "approved_by": "governance_officer"
+    },
+    {
+        "document_id": "DOC-0002",
+        "document_name": "claims_handling_manual.txt",
+        "document_type": "Claims Manual",
+        "business_unit": "Claims",
+        "data_sensitivity": "confidential",
+        "source_system": "claims_document_repository",
+        "created_timestamp": "2026-05-06T15:50:02.541323",
+        "last_reviewed_timestamp": "2026-05-06T15:50:02.541323",
+        "approved_by": "document_admin"
+    },
+    {
+        "document_id": "DOC-0003",
+        "document_name": "underwriting_guidelines.txt",
+        "document_type": "Underwriting Guidelines",
+        "business_unit": "Underwriting",
+        "data_sensitivity": "restricted",
+        "source_system": "underwriting_knowledge_base",
+        "created_timestamp": "2026-05-06T15:50:02.541323",
+        "last_reviewed_timestamp": "2026-05-06T15:50:02.541323",
+        "approved_by": "business_owner"
+    },
+    {
+        "document_id": "DOC-0004",
+        "document_name": "reinsurance_treaty_sample.txt",
+        "document_type": "Reinsurance Treaty",
+        "business_unit": "Reinsurance",
+        "data_sensitivity": "restricted",
+        "source_system": "treaty_management_platform",
+        "created_timestamp": "2026-05-06T15:50:02.541323",
+        "last_reviewed_timestamp": "2026-05-06T15:50:02.541323",
+        "approved_by": "governance_officer"
+    },
+    {
+        "document_id": "DOC-0005",
+        "document_name": "cat_event_response_guide.txt",
+        "document_type": "CAT Response Guide",
+        "business_unit": "CAT Analytics",
+        "data_sensitivity": "internal",
+        "source_system": "cat_response_repository",
+        "created_timestamp": "2026-05-06T15:50:02.541323",
+        "last_reviewed_timestamp": "2026-05-06T15:50:02.541323",
+        "approved_by": "document_admin"
+    }
+]

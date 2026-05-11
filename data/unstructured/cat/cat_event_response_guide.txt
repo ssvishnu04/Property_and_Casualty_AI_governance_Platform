@@ -1,0 +1,21 @@
+CATASTROPHE RESPONSE GUIDE
+
+Following a catastrophe event:
+
+1. Activate CAT response procedures
+2. Monitor claim surge activity
+3. Escalate severe losses
+4. Notify reinsurance partners
+5. Track regional exposure accumulation
+
+Priority CAT events include:
+- Hurricanes
+- Wildfires
+- Earthquakes
+- Tornado outbreaks
+
+CAT analytics teams should continuously monitor:
+- Loss trends
+- Geographic concentration
+- Reinsurance exhaustion risk
+- Operational capacity

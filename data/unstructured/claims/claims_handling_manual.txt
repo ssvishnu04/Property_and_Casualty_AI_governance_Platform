@@ -1,0 +1,20 @@
+CLAIMS HANDLING MANUAL
+
+All claim files must be reviewed for:
+- Policy verification
+- Coverage applicability
+- Fraud indicators
+- Reserve adequacy
+- Documentation completeness
+
+Adjusters must:
+- Document all insured communications
+- Update reserves promptly
+- Escalate litigation claims
+- Maintain regulatory compliance
+
+Claims involving bodily injury or catastrophic loss
+require management review.
+
+Sensitive customer information must not be shared
+outside authorized systems.

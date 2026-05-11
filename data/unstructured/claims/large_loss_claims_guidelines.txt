@@ -1,0 +1,10 @@
+Large-loss claims require review of claim status, loss type, reserve amount, paid amount, litigation flag, and available documentation.
+
+Claims next steps should include:
+- validate policy coverage and effective dates
+- review supporting claim documentation
+- confirm reserve adequacy
+- evaluate litigation exposure
+- escalate high-severity or large-loss claims to senior claims management
+
+Claims with high reserve amounts, litigation involvement, or complex coverage issues require additional governance review.

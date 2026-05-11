@@ -1,0 +1,13 @@
+Enterprise AI Governance Policy
+
+AI systems must prevent unauthorized access to sensitive information.
+
+PII exposure attempts must be blocked automatically.
+
+High-risk financial or operational AI responses require governance review.
+
+All AI interactions must be logged for auditability.
+
+Prompt injection attempts must trigger governance alerts.
+
+AI-generated responses are advisory and require human oversight for regulated decisions.

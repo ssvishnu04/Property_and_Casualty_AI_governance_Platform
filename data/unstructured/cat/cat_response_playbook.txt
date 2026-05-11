@@ -1,0 +1,15 @@
+Catastrophe Response Playbook
+
+CAT response procedures activate when severe catastrophe events occur.
+
+Operational priorities:
+- surge staffing
+- reserve estimation
+- exposure aggregation
+- catastrophe communication management
+
+Claims surge protocols should be activated for widespread regional events.
+
+CAT events with severity scores above 0.75 require executive monitoring.
+
+Reinsurance teams should estimate treaty recoverables during CAT response.

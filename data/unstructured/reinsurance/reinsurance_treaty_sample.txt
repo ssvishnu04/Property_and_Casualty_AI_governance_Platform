@@ -1,0 +1,24 @@
+REINSURANCE TREATY SAMPLE
+
+This Catastrophe Excess of Loss treaty provides
+protection for catastrophe losses exceeding
+the attachment point.
+
+Attachment Point:
+$10,000,000
+
+Treaty Limit:
+$50,000,000
+
+Covered Territories:
+- Gulf Coast
+- Southeast United States
+
+Exclusions:
+- War
+- Nuclear incidents
+- Cyber terrorism
+
+The reinsurer shall indemnify the cedent
+for covered catastrophe losses exceeding
+the attachment point up to the treaty limit.
