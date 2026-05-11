@@ -190,18 +190,27 @@ Governance Analytics Dashboard
 
 # Governance Analytics Dashboard
 
-## The Streamlit dashboard includes:
+The Streamlit dashboard includes:
 
 ## Executive Governance Overview
-![Executive Dashboard](assets/screenshots/executive_dashboard.png)
+![Executive Dashboard](data/Images/ExecutiveGovernance_1.jpg)
 
-Runtime Governance KPIs
-AI Evaluation Metrics
-AI Runtime Events
-Blocked Event Monitoring
-Agent Registry
-Tool Registry
-Governance Audit CSV Export
+## Runtime Governance KPIs
+![Executive Dashboard](data/Images/ExecutiveGovernance_2.jpg)
+
+## AI Evaluation Metrics
+## AI Runtime Events
+![Executive Dashboard](data/Images/RunTimeEvents.jpg)
+
+## Blocked Event Monitoring
+![Executive Dashboard](data/Images/BlockedEvents.jpg)
+
+## Agent Registry
+![Executive Dashboard](data/Images/AI_Agent_Registry.jpg)
+
+## Tool Registry
+
+## Governance Audit CSV Export
 
 ---
 
