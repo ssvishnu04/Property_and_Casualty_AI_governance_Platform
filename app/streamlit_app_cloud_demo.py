@@ -1357,10 +1357,20 @@ with tabs[1]:
         for _, row in agents_df.iterrows()
     }
 
+    agent_options = list(agent_display_map.keys())
+
+    if not agent_options:
+        st.error("No AI agents were loaded. Please verify agents.json or agent service data.")
+        st.stop()
+
     selected_agent_name = st.selectbox(
         "Select AI Agent",
-        list(agent_display_map.keys()),
+        agent_options,
+        key="cloud_agent_select",
     )
+
+    if selected_agent_name not in agent_display_map:
+        selected_agent_name = agent_options[0]
 
     selected_agent = agent_display_map[selected_agent_name]["agent_id"]
 
