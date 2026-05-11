@@ -199,6 +199,8 @@ The Streamlit dashboard includes:
 ![Executive Dashboard](data/Images/ExecutiveGovernance_2.jpg)
 
 ## AI Evaluation Metrics
+![Executive Dashboard](data/Images/AI_Gateway_PlayGround.jpg)
+
 ## AI Runtime Events
 ![Executive Dashboard](data/Images/RunTimeEvents.jpg)
 
@@ -209,8 +211,10 @@ The Streamlit dashboard includes:
 ![Executive Dashboard](data/Images/AI_Agent_Registry.jpg)
 
 ## Tool Registry
+![Executive Dashboard](data/Images/ToolRegistry.jpg)
 
 ## Governance Audit CSV Export
+![Executive Dashboard](data/Images/GovernanceAuditReport.jpg)
 
 ---
 
@@ -219,3 +223,5 @@ The Streamlit dashboard includes:
 This project is intended for educational, portfolio, and demonstration purposes only.
 
 No real customer, claims, policyholder, underwriting, or treaty data is used.
+
+Author: Vishnu Yadavalli
