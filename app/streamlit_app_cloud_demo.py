@@ -77,30 +77,46 @@ def fetch_data(endpoint: str):
     if DEMO_MODE:
 
         if endpoint == "/agents/":
-            if get_agents is not None:
-                return get_agents()
 
-            return load_json_from_possible_paths(
-                [
-                    "data/agents.json",
-                    "data/registry/agents.json",
-                    "data/governance/agents.json",
-                    "agents.json",
-                ]
-            )
+         agents_data = []
+
+        if get_agents is not None:
+            try:
+                agents_data = get_agents()
+            except Exception:
+                agents_data = []
+
+        if agents_data:
+            return agents_data
+
+        return load_json_from_possible_paths(
+            [
+                "data/semi_structured/agents.json",
+                "data/agents.json",
+                "agents.json",
+            ]
+        )
 
         if endpoint == "/tools/":
-            if get_tools is not None:
-                return get_tools()
 
-            return load_json_from_possible_paths(
-                [
-                    "data/tools.json",
-                    "data/registry/tools.json",
-                    "data/governance/tools.json",
-                    "tools.json",
-                ]
-            )
+         tools_data = []
+
+        if get_tools is not None:
+            try:
+                tools_data = get_tools()
+            except Exception:
+                tools_data = []
+
+        if tools_data:
+            return tools_data
+
+        return load_json_from_possible_paths(
+            [
+                "data/semi_structured/tools.json",
+                "data/tools.json",
+                "tools.json",
+            ]
+        )
 
         if endpoint.startswith("/events/recent"):
             events = load_events()
@@ -394,12 +410,11 @@ def parse_approved_tools(value):
 
 def load_json_from_possible_paths(paths: list[str]):
     """
-    Loads JSON from the first available path.
-    Used as a fallback for Streamlit Cloud demo mode.
+    Loads JSON from first available path using project root.
     """
 
     for path in paths:
-        file_path = Path(path)
+        file_path = PROJECT_ROOT / path
 
         if file_path.exists():
             with open(
