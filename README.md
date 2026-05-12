@@ -20,7 +20,7 @@
 
 The Enterprise AI Governance & Observability Platform is a production-style multi-agent AI governance solution designed for Property & Casualty (P&C) Insurance and Reinsurance environments.
 
-The platform demonstrates how organizations can securely deploy and monitor Generative AI, Retrieval-Augmented Generation (RAG), and AI orchestration workflows while enforcing runtime governance, auditability, AI risk monitoring, and responsible AI controls.
+The platform demonstrates how organizations can securely deploy and monitor Generative AI, Retrieval Augmented Generation (RAG), and AI orchestration workflows while enforcing runtime governance, auditability, AI risk monitoring, and responsible AI controls.
 
 This project simulates enterprise AI governance patterns commonly required in regulated industries such as:
 - Insurance
@@ -88,15 +88,15 @@ This platform demonstrates how enterprise AI systems can be governed safely thro
 # Enterprise Features
 
 - Runtime AI governance workflows
-- Governance-aware RAG pipelines
+- Governance aware RAG pipelines
 - AI observability dashboards
-- Multi-agent orchestration
+- Multi agent orchestration
 - Runtime risk scoring
 - Governance audit logging
 - Prompt validation workflows
 - Explainable AI responses
 - Human review workflows
-- Cloud-ready deployment architecture
+- Cloud ready deployment architecture
 
 ---
 
