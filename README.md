@@ -1,54 +1,68 @@
-# Enterprise Agentic AI Governance Platform
+# Enterprise AI Governance & Observability Platform
 ### Insurance & Reinsurance (P&C Domain)
 
-# Project Link [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
-https://ai-governance-platform-property-and-casualty.streamlit.app/
-## Overview
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-red)
+![FAISS](https://img.shields.io/badge/FAISS-VectorSearch-purple)
+![MLflow](https://img.shields.io/badge/MLflow-MLOps-lightblue)
 
-The Enterprise Agentic AI Governance Platform is a production-style multi-agent AI governance and observability solution designed for the Property & Casualty (P&C) Insurance and Reinsurance domain.
+# Project Link
 
-The platform demonstrates how enterprises can securely operationalize Generative AI, Retrieval-Augmented Generation (RAG), and Agentic AI systems while enforcing governance, runtime monitoring, risk management, auditability, and Responsible AI controls.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-governance-platform-property-and-casualty.streamlit.app/)
 
-This project simulates a real-world enterprise AI governance architecture using:
+---
 
-- Multi-Agent AI workflows
-- Domain-specific RAG systems
-- Runtime governance enforcement
-- Prompt guardrails
+# Executive Summary
+
+The Enterprise AI Governance & Observability Platform is a production-style multi-agent AI governance solution designed for Property & Casualty (P&C) Insurance and Reinsurance environments.
+
+The platform demonstrates how organizations can securely deploy and monitor Generative AI, Retrieval-Augmented Generation (RAG), and AI orchestration workflows while enforcing runtime governance, auditability, AI risk monitoring, and responsible AI controls.
+
+This project simulates enterprise AI governance patterns commonly required in regulated industries such as:
+- Insurance
+- Reinsurance
+- Banking
+- Financial Services
+- Healthcare
+
+The platform combines:
+- Multi agent AI workflows
+- Governance aware RAG pipelines
+- Runtime monitoring
 - AI risk scoring
 - Governance audit logging
-- AI evaluation monitoring
-- Enterprise analytics dashboards
-- governance review workflows
-
-The solution is intentionally designed to resemble enterprise AI governance operating models used by large insurance carriers, reinsurers, financial institutions, and regulated industries.
+- Explainable AI workflows
+- AI observability dashboards
+- Human review workflows
 
 ---
 
 # Business Problem
 
-As organizations deploy enterprise GenAI and Agentic AI systems, they face major operational and governance risks:
+As enterprises operationalize Generative AI and AI orchestration systems, they face significant governance and operational risks:
 
-- Unauthorized AI tool usage
-- Prompt injection attacks
-- Sensitive data leakage
-- Hallucinated responses
-- Lack of runtime AI monitoring
-- Missing audit trails
-- Regulatory and compliance exposure
-- Absence of governance enforcement
-- Uncontrolled AI decision-making
+- Unauthorized AI tool access
+- Sensitive data exposure
+- Prompt manipulation attempts
+- Hallucinated AI responses
+- Missing runtime monitoring
+- Lack of governance auditability
+- Regulatory compliance exposure
+- Uncontrolled AI decision workflows
 
-Insurance and reinsurance organizations are especially sensitive due to:
-
+Property & Casualty insurance organizations are especially sensitive due to:
 - Policyholder PII
+- Claims confidentiality
 - Financial risk exposure
-- Reinsurance treaty confidentiality
 - Underwriting model sensitivity
-- Regulatory reporting requirements
-- Claims governance obligations
+- Reinsurance treaty confidentiality
+- Regulatory reporting obligations
 
-This platform demonstrates how enterprise AI systems can be governed safely at runtime.
+This platform demonstrates how enterprise AI systems can be governed safely through runtime governance and observability workflows.
 
 ---
 
@@ -60,36 +74,51 @@ This platform demonstrates how enterprise AI systems can be governed safely at r
 |---|---|
 | Frontend | Streamlit |
 | API Layer | FastAPI |
-| Vector Database | FAISS |
+| Vector Search | FAISS |
 | Embeddings | HuggingFace Sentence Transformers |
 | LLM | Groq Llama |
-| Runtime Governance | Custom Governance Engine |
-| RAG Evaluation | Enterprise Evaluation Framework |
+| Runtime Governance | Rule-Based Governance Framework |
+| RAG Evaluation | RAGAS + Custom Evaluation Pipelines |
 | Analytics | Plotly |
 | Data Processing | Pandas |
-| AI Governance Logging | JSON Runtime Events |
+| Runtime Logging | JSON Runtime Events |
 | Deployment | Local / Streamlit Cloud |
 
 ---
+# Enterprise Features
 
-# Key Features
+- Runtime AI governance workflows
+- Governance-aware RAG pipelines
+- AI observability dashboards
+- Multi-agent orchestration
+- Runtime risk scoring
+- Governance audit logging
+- Prompt validation workflows
+- Explainable AI responses
+- Human review workflows
+- Cloud-ready deployment architecture
 
-## Multi-Agent Enterprise AI Platform
+---
 
-The platform contains multiple governed AI agents:
+# Multi Agent AI Platform
 
-- Claims Summary Agent
-- Policy Coverage Agent
-- Underwriting Copilot
-- CAT Event Intelligence Agent
-- Reinsurance Treaty Agent
-- Governance Oversight Agent
+The platform includes multiple governed AI agents:
+
+| Agent | Purpose |
+|---|---|
+| Claims Summary Agent | Claims triage, reserve review, litigation exposure analysis |
+| Policy Coverage Agent | Coverage interpretation and exclusion analysis |
+| Underwriting Copilot | Risk evaluation and underwriting assessment |
+| CAT Event Intelligence Agent | Catastrophe event analysis and impact assessment |
+| Reinsurance Treaty Agent | Treaty review and reinsurance exposure analysis |
+| Governance Oversight Agent | Runtime governance monitoring and auditability |
 
 Each agent:
 - Uses domain-specific RAG
-- Has approved tool access
 - Operates under governance controls
 - Generates runtime audit events
+- Uses approved retrieval workflows
+- Supports explainable AI responses
 
 ---
 
@@ -97,20 +126,20 @@ Each agent:
 
 ## Runtime Governance Enforcement
 
-The governance engine evaluates every request for:
+The governance framework evaluates every AI request for:
 
-- Prompt injection attacks
-- Unauthorized tool access
-- PII extraction attempts
+- Sensitive data extraction attempts
+- Unauthorized tool usage
 - Credential extraction requests
-- Sensitive enterprise data requests
-- Internal underwriting model exposure
-- Confidential reinsurance requests
-- Governance bypass attempts
+- Internal model exposure requests
+- Confidential reinsurance data requests
+- Policy violation attempts
+- Prompt validation failures
+- Governance risk indicators
 
 ---
 
-## Governance Decisioning
+# Governance Decisioning
 
 Requests are dynamically classified into:
 
@@ -122,55 +151,43 @@ Requests are dynamically classified into:
 
 ---
 
-## Runtime AI Risk Scoring
+# Runtime AI Risk Scoring
 
-Every request receives:
-- AI governance risk score
+Each AI request receives:
+- Governance risk score
 - Risk level classification
 - Triggered governance rules
 - Runtime audit metadata
+- Governance decision tracking
 
 ---
+# Enterprise RAG Workflow
 
-# Multi-Agent Architecture
-
-## Claims Summary Agent
-Handles claims triage, summaries, reserve review, and litigation exposure analysis.
-
-## Policy Coverage Agent
-Provides policy interpretation, coverage analysis, and exclusion review.
-
-## Underwriting Copilot
-Evaluates underwriting submissions, catastrophe exposure, and pricing adequacy.
-
-## CAT Event Intelligence Agent
-Analyzes catastrophe events, severity projections, and operational impacts.
-
-## Reinsurance Treaty Agent
-Reviews treaty structures, attachment points, retention levels, and CAT recoveries.
-
-## Governance Oversight Agent
-Monitors enterprise AI governance posture and runtime governance enforcement.
-
----
-
-# RAG Architecture
-
-## Enterprise RAG Workflow
-
-1. User submits AI request
-2. Governance engine evaluates request
-3. Approved request routes to domain-specific RAG
-4. FAISS retrieves relevant enterprise knowledge
-5. LLM generates grounded response
-6. Governance metadata logged
-7. Runtime event stored for observability and audit
+```text
+User submits request
+        ↓
+Governance evaluation
+        ↓
+Risk scoring & policy validation
+        ↓
+Allowed / Review / Blocked
+        ↓
+Domain-specific RAG retrieval
+        ↓
+FAISS semantic vector search
+        ↓
+LLM response generation
+        ↓
+Governed AI response
+        ↓
+Runtime audit logging
+        ↓
+Governance observability dashboard
+```
 
 ---
 
 # Runtime Governance Workflow
-
-## Governance Pipeline
 
 ```text
 User Prompt
@@ -189,6 +206,7 @@ Runtime Audit Logging
     ↓
 Governance Analytics Dashboard
 ```
+
 ---
 
 # Governance Analytics Dashboard
@@ -220,11 +238,41 @@ The Streamlit dashboard includes:
 ![Executive Dashboard](data/Images/GovernanceAuditReport.jpg)
 
 ---
+# Sample Governance Scenarios
+
+- PII extraction attempts
+- Unauthorized underwriting model access
+- Sensitive treaty exposure requests
+- Claims data governance validation
+- Governance-aware AI review workflows
+- Runtime AI risk monitoring
+
+---
+
+# Deployment Options
+
+The platform supports:
+- Local development deployment
+- Streamlit Cloud deployment
+- Azure-ready architecture patterns
+- Cloud-native API integration workflows
+
+---
 
 # Disclaimer
 
-This project is intended for educational, portfolio, and demonstration purposes only.
+This project is intended for:
+- Educational purposes
+- Portfolio demonstrations
+- Enterprise AI governance simulations
 
 No real customer, claims, policyholder, underwriting, or treaty data is used.
 
-Author: Vishnu Yadavalli
+---
+
+# Author
+
+Vishnu Yadavalli
+
+---
+⭐ Enterprise style AI governance and observability platform demonstrating practical governance aware AI implementation patterns for regulated industries.
