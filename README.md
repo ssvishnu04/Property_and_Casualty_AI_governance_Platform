@@ -10,7 +10,7 @@
 ![FAISS](https://img.shields.io/badge/FAISS-VectorSearch-purple)
 ![MLflow](https://img.shields.io/badge/MLflow-MLOps-lightblue)
 
-Enterprise-style AI Governance & Observability Platform designed for Property & Casualty (P&C) Insurance and Reinsurance environments, demonstrating governance aware AI orchestration, runtime monitoring, AI risk scoring, auditability, and Responsible AI controls for Generative AI and Retrieval Augmented Generation (RAG) systems.
+Enterprise style AI Governance & Observability Platform designed for Property & Casualty (P&C) Insurance and Reinsurance environments, demonstrating governance aware AI orchestration, runtime monitoring, AI risk scoring, auditability, and Responsible AI controls for Generative AI and Retrieval Augmented Generation (RAG) systems.
 
 # Project Link
 
