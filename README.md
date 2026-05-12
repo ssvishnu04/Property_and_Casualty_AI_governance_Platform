@@ -10,6 +10,8 @@
 ![FAISS](https://img.shields.io/badge/FAISS-VectorSearch-purple)
 ![MLflow](https://img.shields.io/badge/MLflow-MLOps-lightblue)
 
+Enterprise-style AI Governance & Observability Platform designed for Property & Casualty (P&C) Insurance and Reinsurance environments, demonstrating governance aware AI orchestration, runtime monitoring, AI risk scoring, auditability, and Responsible AI controls for Generative AI and Retrieval Augmented Generation (RAG) systems.
+
 # Project Link
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-governance-platform-property-and-casualty.streamlit.app/)
@@ -18,7 +20,7 @@
 
 # Executive Summary
 
-The Enterprise AI Governance & Observability Platform is a production-style multi-agent AI governance solution designed for Property & Casualty (P&C) Insurance and Reinsurance environments.
+The Enterprise AI Governance & Observability Platform is a production style multi agent AI governance solution designed for Property & Casualty (P&C) Insurance and Reinsurance environments.
 
 The platform demonstrates how organizations can securely deploy and monitor Generative AI, Retrieval Augmented Generation (RAG), and AI orchestration workflows while enforcing runtime governance, auditability, AI risk monitoring, and responsible AI controls.
 
